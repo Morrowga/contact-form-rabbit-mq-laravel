@@ -15,16 +15,27 @@
 This testing run with Laravel 10x. And installtion below,
 
 - if you are using mac then 
+<br>
 type $ brew install rabbitmq
+<br>
 then export path to rabbit mq commands
+<br>
 then enable rabbit management 
+<br>
 type $ rabbitmq-plugins enable rabbitmq_management
+<br>
 then start rabbit mq server to use rabbit mq system
+<br>
 type rabbitmq-server
+<br>
 then you can call http://localhost:15672 in your local
+<br>
 then you need to make sure you have installed. Read the guide [amqp](https://pecl.php.net/package/amqp)
+<br>
 then enable in your php.ini which is currently active version.
+<br>
 then restart the php
+<br>
 
 then  you have to install composer library for rabbit mq
 
