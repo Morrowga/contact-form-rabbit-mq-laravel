@@ -56,6 +56,9 @@ type $ php artisan rabbitmq:consume
 - RABBITMQ_PASSWORD=guest
 - RABBITMQ_QUEUE=your_queue
 
+then you run 
+- php artisan migrate ( make sure you set up the database environment )
+
 then you run php artisan schedule:run by manual or using cronjob 
 
 Thank you for paying attention
