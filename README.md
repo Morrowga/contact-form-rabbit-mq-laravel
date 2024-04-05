@@ -48,13 +48,13 @@ then you have the set up environment for rabbit mq .env
 then check the rabbit mq queue 
 type $ php artisan rabbitmq:consume
 
-QUEUE_CONNECTION=rabbitmq
-RABBITMQ_HOST=127.0.0.1
-RABBITMQ_PORT=5672
-RABBITMQ_VHOST=/
-RABBITMQ_LOGIN=guest
-RABBITMQ_PASSWORD=guest
-RABBITMQ_QUEUE=your_queue
+- QUEUE_CONNECTION=rabbitmq
+- RABBITMQ_HOST=127.0.0.1
+- RABBITMQ_PORT=5672
+- RABBITMQ_VHOST=/
+- RABBITMQ_LOGIN=guest
+- RABBITMQ_PASSWORD=guest
+- RABBITMQ_QUEUE=your_queue
 
 then you run php artisan schedule:run by manual or using cronjob 
 
